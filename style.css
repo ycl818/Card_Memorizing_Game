@@ -1,16 +1,18 @@
 body {
   background-color: rgb(157, 181, 182);
   position: relative;
+  box-sizing: border-box;
 }
 #cards {
   display: flex;
   flex-wrap: wrap;
-  
+  width: 85%;
+  margin: 0 auto;
 }
 
 .card {
   flex: 7% 0 1;
-  height: 10vw;
+  height: 8vw;
   border: 2px solid #e0e0e0;
   display: flex;
   flex-direction: column;
@@ -100,7 +102,7 @@ body {
 .completed {
   position: absolute;
   z-index: 999;
-  top: 20vh;
+  top: 33vh;
   background-color: RGBA(31, 151, 174, 0.8);
   width: 100vw;
   padding: 50px 0;
